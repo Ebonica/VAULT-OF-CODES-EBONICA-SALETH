@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DDA0DD;
+}
+
+header {
+    background-color: #333;
+    color: #FFE4E1;
+    text-align: center;
+    padding: 20px;
+}
+
+.internship-section {
+    text-align: center; /* Center-align the contents within the section */
+    margin: 20px auto; /* Horizontally center-align the section */
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    background-color: #FFE4E1; /* Background color for the internship section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    text-align: center; /* Center-align the "Internship Opportunities" title */
+    margin-bottom: 20px;
+    color: #333; /* Text color for the title */
+}
+
+.internship-cards-container {
+    display: flex;
+    justify-content: center; /* Center-align the cards horizontally */
+    flex-wrap: wrap;
+}
+
+.internship-card {
+    background-color: #D8BFD8; /* Background color for internship cards */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.internship-card img {
+    max-width: 100%;
+}
+
+.internship-card h3 {
+    color: #000080;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.internship-card p {
+    color:#4169E1;
+    margin-top: 10px;
+}
+
+.internship-card a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.internship-card a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+.additional-links,
+.subscribe,
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.additional-links ul,
+.subscribe form {
+    list-style: none;
+    padding: 0;
+}
+
+.additional-links li,
+.subscribe label,
+.subscribe input,
+.subscribe button,
+.social-media a {
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
