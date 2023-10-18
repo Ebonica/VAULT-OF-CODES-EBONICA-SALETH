@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Container</title>
+    <style>
+        /* Error: The container is not centered on the page because margin: auto alone is not enough to center it. */
+        /* Correction: To center the container horizontally, set text-align: center on the body element. */
+        body {
+            text-align: center;
+        }
+
+        .container {
+            /* Correction: Use display: inline-block to center the container within the body. */
+            display: inline-block;
+            width: 50%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            /* Correction: Reset text alignment inside the container to left. */
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Centered Container</h1>
+        <p>This container should be centered on the page.</p>
+    </div>
+</body>
+</html>

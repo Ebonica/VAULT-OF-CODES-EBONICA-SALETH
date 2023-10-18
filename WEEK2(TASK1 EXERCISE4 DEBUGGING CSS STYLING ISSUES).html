@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Debugging Exercise</title>
+    <style>
+        .container {
+            /* Error: The container width should be 100% to fill the entire width of the viewport. */
+            width: 100%;
+            background-color: #f0f0f0;
+            text-align: center; /* Center align the boxes within the container. */
+            padding: 20px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            /* Error: The line-height is not necessary for vertical centering. */
+            line-height: 100px;
+            margin: 10px; /* Add margin to separate the boxes. */
+            display: inline-block; /* Display the boxes in a horizontal row. */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>
