@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Indicator</title>
+    <link rel="stylesheet" href="Password(WEEK 3 TASK2).css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">PASSWORD STRENGTH INDICATOR</div>
+            <div class="card-body">
+                <div class="password-container">
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" id="password" oninput="checkPasswordStrength()">
+                    <div id="password-strength" class="strength-indicator">Strength: <span id="strength-text">Weak</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script(WEEK 3 TASK 2).js"></script>
+</body>
+</html>
+
